@@ -15,6 +15,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
+by fatima
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
