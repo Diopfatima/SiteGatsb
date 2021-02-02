@@ -7,7 +7,7 @@ import  Capture from "../images/Capture.png"
 import Video from "../components/video"
 import ContactForm from '../components/ContactForm'
 import styles from "../components/layout.module.css"
-
+import Header from "../components/header"
 
 
 
@@ -16,30 +16,9 @@ const test = () => (
     <Layout >
        
     <SEO title="Page d'acceuil" />
-    <header id="header"> 
-        
-      <nav class="navbar">
-        <div  id="conteneur" class="nav-center">
-        
-          <div id={styles.navbarLinkContainer}>
-        <ul id="navigation"> <img src={Capture} style={{ maxWidth: '2000px' }} alt="logo"/>
-         
-         
-         
-                 
-       <section> < div> <Link className={styles.navLink}  to="#presentation">
-               Présentation
-                </Link></div> 
-                
-               < div><Link className={styles.navLink} to={"#vision"}>
-                Vision
-                </Link> </div>
-                <Link className={styles.navLink}  to="#contact">
-              CONTACT
-                </Link>
-                </section>  </ul>      
- </div></div></nav> </header>
- <h1 id="presentation">Presentation</h1>
+    <Header id="header"></Header>
+    
+ <h1 id="presentation">Présentation</h1>
 <p>Sur la base de votre Nutrinome®, nous vous proposons des recommandations de recettes adaptées à vos goûts, vos habitudes et vos préférences...
 
 ​
@@ -70,12 +49,7 @@ La révolution d’aujourd’hui, c’est la prise de conscience que nous sommes
         <h2 id="contact">Contact Us</h2>
         <ContactForm></ContactForm>
     </header>
-</section>
-
-    
-
-    
-    
+</section> 
   </Layout>
 )
 

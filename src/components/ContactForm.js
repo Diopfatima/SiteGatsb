@@ -12,7 +12,7 @@ class ContactForm extends React.Component {
     }
     const thumb = document.getElementById('email')
     return (
-        <form  method="post" action="#">
+        <form id="form" method="post" action="#">
         <div className="field half first">
     <label htmlFor="name">Nom</label>
     <input type="text" name="name" placeholder="Entrer votre nom" id="name" />
@@ -26,7 +26,7 @@ class ContactForm extends React.Component {
     <textarea name="message" id="message" rows="6" />
   </div>
   <ul className="actions">
-         <input type="submit" value="Submit"  className="special" onClick = {() =>window.alert("Votre email est") + thumb}/>
+         <input type="submit" value="Soumettre"  className="special" onClick = {() =>window.alert("Votre email est") + thumb}/>
     
    
   </ul>

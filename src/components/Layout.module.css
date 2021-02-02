@@ -13,6 +13,7 @@
     top: 0px;
     width: 100%;
     background-color: #eee;
+    display: inline-block
   }
   #navbar-background {
     position: absolute;
@@ -31,6 +32,7 @@
     text-align: center;
   }
   .nav-link {
+    display: inline-block;
     font-size: 20px;
     display: block;
     background-color: rgba(0, 0, 0, 0.1);
@@ -38,10 +40,17 @@
     color: #333;
     font-weight: bold;
     padding: 20px 4px 0px 2px;
+
   }
+  #conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
+    
   }
   #main {
     margin-top: 75px;
