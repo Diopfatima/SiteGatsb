@@ -22,6 +22,7 @@
     overflow: hidden;
   }
   #navbar-link-container {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -45,6 +46,11 @@
   #main {
     margin-top: 75px;
   }
+  #conteneur
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
   
   @media screen and (min-width: 120px) {
     /* if width more than 580px */

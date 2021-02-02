@@ -19,7 +19,7 @@ const test = () => (
     <header id="header"> 
         
       <nav class="navbar">
-        <div class="nav-center">
+        <div  id="conteneur" class="nav-center">
         
           <div id={styles.navbarLinkContainer}>
         <ul id="navigation"> <img src={Capture} style={{ maxWidth: '2000px' }} alt="logo"/>
